@@ -1,27 +1,36 @@
-# est_met
+<p>Weather Station - Estacion metereologica 
 
 
+<p>Editor de texto y programacion geany 1.33
 
-Weather Station - Estacion metereologica 
+<p align="center">
+  <img src="https://github.com/pablinn/alexa-fauxmoesp-light/blob/master/img/geany.png" width="350" title="hover text">  
+</p>
 
-Editor de texto geany o atom
+<p>Agregar comando de compilacion a geany 
+<p align="center">
+  <img src="https://github.com/pablinn/alexa-fauxmoesp-light/blob/master/img/geany-pio.png" width="350" title="hover text">  
+</p>
 
-Cross-compiler Platformio
+<p>Ide de programaicon Platformio
 
-esp8266 vesp12
 
-dht 22  sensor de humedad y temperatura 
+<p>Desde la terminal crear el proyecto o usar Visual estudio code
+<p>platformio project init --board atmega2560
 
-Presion atmosferica (BMP280)
-Humeda relativa (DHT22)
 
-Temperatura ambiente (DHT22 - BMP280)
+<p>lib dependencias dentro de la carpeta o usar platformio para la gestion de librerias
 
-Sensacion termica(calculo)
+<p>Adafruit_BME280
+<p>https://github.com/adafruit/Adafruit_BME280_Library.git
 
-Punto o temperatura de rocio a presion atmosferica(calculo)
+<p>arduino-DHT
+<p>https://github.com/markruys/arduino-DHT.git
 
-Velocidad del viento - no implementado
+<p>Dentro de source colocar main.cpp y pass.h
+<p>src ->main.cpp
 
-Implementacion del algoritmo zambretti en modo test funciones lineales
+<p>Ejemplo de aplicacion</p>
+<center>
+
 
